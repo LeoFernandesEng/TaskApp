@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+    <string name="reporte_me">Reporte-me</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Ainda não é usuário? Clique aqui para Registrar</string>
+</resources>
