@@ -5,8 +5,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.view.View
 import com.project.br.taskapp.R
+import com.project.br.taskapp.repository.DatabaseUtil
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
@@ -18,22 +20,13 @@ class SplashActivity : AppCompatActivity() {
         actionBar?.hide()
         setContentView(R.layout.activity_splash)
 
-
-//        val r = Runnable {
-//            startActivity(Intent(this, LoginActivity::class.java))
-//            finish()
-//        }
-//
-//        val h = Handler()
-//        h.postDelayed(r, 5000)
-
-        // Create a delay activity
-        Handler().postDelayed(Runnable {
-            startActivity(Intent(this,LoginActivity::class.java))
+        // Create a delay on activity
+        Handler(Looper.myLooper()!!).postDelayed({
+            startActivity(Intent(SplashActivity@this,LoginActivity::class.java))
             finish()
-        }, 4000)
+        }, 3000L)
 
-
+        DatabaseUtil.getInstance(applicationContext)
 
     }
 }
