@@ -12,7 +12,7 @@ object DatabaseUtil {
             instance = Room.databaseBuilder(
                 context,
                 TaskDatabase::class.java,
-                "taskdatabase.db"
+                "databaseapp.db"
             ).build()
         }
         return instance!!

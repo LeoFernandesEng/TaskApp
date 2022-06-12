@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon_task" />
+        app:srcCompat="@drawable/icon_app" />
 
     <EditText
         android:id="@+id/login_edittext_email"

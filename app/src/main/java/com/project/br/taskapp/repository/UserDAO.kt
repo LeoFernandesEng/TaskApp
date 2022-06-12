@@ -1,12 +1,9 @@
 package com.project.br.taskapp.repository
 
-import android.provider.ContactsContract
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
-import androidx.room.Update
+import androidx.room.*
 import com.project.br.taskapp.entity.User
 
+@Dao
 interface UserDAO {
     @Insert
     fun insert(user: User)
@@ -18,7 +15,7 @@ interface UserDAO {
     fun delete(user: User)
 
     @Query("SELECT * FROM users WHERE id = :id")
-    fun findByID(id : Int): User
+    fun findByID(id: Int): User
 
     @Query("SELECT * FROM users WHERE email = :email")
     fun findByEmail(email: String): User
