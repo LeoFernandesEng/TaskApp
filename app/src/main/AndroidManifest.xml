@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskApp">
         <activity
-            android:name=".Activity_Receita"
+            android:name=".activity.TransactionActivity"
             android:exported="false" />
         <activity
             android:name=".activity.RegisterActivity"

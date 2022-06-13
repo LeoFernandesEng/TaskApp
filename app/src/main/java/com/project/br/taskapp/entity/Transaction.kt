@@ -5,13 +5,15 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "receitas"
+    tableName = "transactions"
 )
-data class Receita(
+data class Transaction(
     @PrimaryKey
     val id : Int? = null,
     val nome: String,
     val description : String,
     val valor : Double,
+    @ColumnInfo(name = "is_expense")
+    val isExpense : Boolean, // é despesa ?
     val userId : Int
 )

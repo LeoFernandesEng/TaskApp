@@ -11,4 +11,5 @@
     <string name="register_hint_senha">Senha</string>
     <string name="register_hint_senhaConfirm">Confirma a senha</string>
     <string name="register_button_registrar">Registrar</string>
+    <string name="titulo_cadastro_transacao">Transaçao</string>
 </resources>

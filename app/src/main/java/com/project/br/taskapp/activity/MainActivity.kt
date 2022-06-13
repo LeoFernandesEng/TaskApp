@@ -1,5 +1,6 @@
 package com.project.br.taskapp.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
@@ -8,8 +9,8 @@ import com.project.br.taskapp.R
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var listReceita : RecyclerView
-    lateinit var btAddReceita : FloatingActionButton
+    lateinit var listTransaction : RecyclerView
+    lateinit var btAddTransaction : FloatingActionButton
 
     private var userId = -1
 
@@ -17,8 +18,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        listReceita = findViewById(R.id.main_recycleview_receitas)
-        btAddReceita = findViewById(R.id.main_fab_create_receita)
+        userId = intent.getIntExtra("userId", -1)
+
+        listTransaction = findViewById(R.id.main_recycleview_transactions)
+        btAddTransaction = findViewById(R.id.main_fab_create_transactions)
+
+        btAddTransaction.setOnClickListener {
+            val intent = Intent(this, TransactionActivity::class.java)
+            intent.putExtra("userId", userId)
+            startActivity(intent)
+        }
 
     }
 }
