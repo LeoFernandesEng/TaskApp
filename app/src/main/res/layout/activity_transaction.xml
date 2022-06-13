@@ -57,7 +57,7 @@
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:hint="Valor"
-        android:inputType="textPersonName"
+        android:inputType="number|numberDecimal"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

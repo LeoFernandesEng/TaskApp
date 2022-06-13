@@ -13,7 +13,9 @@ object DatabaseUtil {
                 context,
                 TaskDatabase::class.java,
                 "databaseapp.db"
-            ).build()
+            )
+                .fallbackToDestructiveMigration()
+                .build()
         }
         return instance!!
     }

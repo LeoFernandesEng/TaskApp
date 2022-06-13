@@ -36,6 +36,13 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        edt_Email.text = ""
+        edt_Senha.text = ""
+    }
+
     override fun onClick(view: View?) {
 
 

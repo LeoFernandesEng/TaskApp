@@ -7,13 +7,14 @@ import androidx.room.PrimaryKey
 @Entity(
     tableName = "transactions"
 )
-data class Transaction(
+data class TransactionApp(
     @PrimaryKey
     val id : Int? = null,
-    val nome: String,
+    val name: String,
     val description : String,
-    val valor : Double,
+    val value : Double,
     @ColumnInfo(name = "is_expense")
     val isExpense : Boolean, // é despesa ?
+    @ColumnInfo(name = "user_id")
     val userId : Int
 )
