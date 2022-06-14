@@ -1,11 +1,6 @@
 <resources>
-<<<<<<< HEAD
     <string name="app_name">Gestão App</string>
     <string name="reporte_me">Gestão APP</string>
-=======
-    <string name="app_name">TaskApp</string>
-    <string name="reporte_me">Reporte-me</string>
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
     <string name="email">E-mail</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
@@ -16,8 +11,5 @@
     <string name="register_hint_senha">Senha</string>
     <string name="register_hint_senhaConfirm">Confirma a senha</string>
     <string name="register_button_registrar">Registrar</string>
-<<<<<<< HEAD
     <string name="titulo_cadastro_transacao">Transaçao</string>
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 </resources>

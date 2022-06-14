@@ -8,27 +8,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskApp">
-<<<<<<< HEAD
         <activity
             android:name=".activity.TransactionActivity"
             android:exported="false" />
         <activity
             android:name=".activity.RegisterActivity"
             android:exported="false" />
-=======
-
-        <activity
-            android:name=".activity.RegisterActivity"
-            android:exported="false" />
-
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         <activity
             android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-<<<<<<< HEAD
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -38,20 +28,6 @@
         <activity
             android:name=".activity.MainActivity"
             android:exported="false" />
-=======
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".activity.LoginActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".activity.MainActivity"
-            android:exported="false"/>
-
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
     </application>
 
 </manifest>

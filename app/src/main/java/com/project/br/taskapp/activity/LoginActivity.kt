@@ -3,7 +3,6 @@ package com.project.br.taskapp.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-<<<<<<< HEAD
 import android.os.Handler
 import android.os.Looper
 import android.view.View
@@ -21,35 +20,22 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var edt_Senha : TextView
     private lateinit var twLoginRegister: TextView
     private lateinit var btLogin: Button
-=======
-import android.view.View
-import android.widget.TextView
-import com.project.br.taskapp.R
-
-class LoginActivity : AppCompatActivity(), View.OnClickListener {
-
-    private lateinit var twLoginRegister: TextView
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-<<<<<<< HEAD
         edt_Email = findViewById(R.id.login_edittext_email)
         edt_Senha = findViewById(R.id.login_edittext_senha)
 
         btLogin = findViewById(R.id.login_button_entrar)
         btLogin.setOnClickListener(this)
 
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         twLoginRegister = findViewById(R.id.login_textview_registrar)
         twLoginRegister.setOnClickListener(this)
 
     }
 
-<<<<<<< HEAD
     override fun onResume() {
         super.onResume()
 
@@ -58,7 +44,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-
 
         when(view?.id){
             R.id.login_textview_registrar -> {
@@ -109,7 +94,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
         }
-
     }
 
     private fun showDialog(messege:String){
@@ -122,15 +106,4 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             }.create()
         dialog.show()
     }
-
-=======
-    override fun onClick(view: View?) {
-        when(view?.id){
-            R.id.login_textview_registrar -> {
-                val intent = Intent(this, RegisterActivity::class.java)
-                startActivity(intent)
-            }
-        }
-    }
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 }

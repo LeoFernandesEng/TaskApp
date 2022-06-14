@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:background="@color/background_color_app"
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
     tools:context=".activity.LoginActivity">
 
     <ImageView
@@ -21,11 +18,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:srcCompat="@drawable/icon_app" />
-=======
-        app:srcCompat="@drawable/icon_task" />
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 
     <EditText
         android:id="@+id/login_edittext_email"
@@ -39,11 +32,8 @@
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-<<<<<<< HEAD
         android:textColor="@color/white"
         android:textColorHint="@color/color_hint_app"
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,11 +52,8 @@
         android:hint="@string/senha"
         android:inputType="textPassword"
         android:minHeight="48dp"
-<<<<<<< HEAD
         android:textColor="@color/white"
         android:textColorHint="@color/color_hint_app"
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -83,10 +70,7 @@
         android:layout_marginEnd="24dp"
         android:text="@string/registrar"
         android:textColor="@color/theme_color"
-<<<<<<< HEAD
         android:textSize="16sp"
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,11 +78,7 @@
 
     <Button
         android:id="@+id/login_button_entrar"
-<<<<<<< HEAD
         android:layout_width="0dp"
-=======
-        android:layout_width="wrap_content"
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"

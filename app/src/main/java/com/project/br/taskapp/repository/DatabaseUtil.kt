@@ -12,15 +12,10 @@ object DatabaseUtil {
             instance = Room.databaseBuilder(
                 context,
                 TaskDatabase::class.java,
-<<<<<<< HEAD
                 "databaseapp.db"
             )
                 .fallbackToDestructiveMigration()
                 .build()
-=======
-                "taskdatabase.db"
-            ).build()
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         }
         return instance!!
     }

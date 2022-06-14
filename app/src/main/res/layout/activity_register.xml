@@ -4,17 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:background="@color/background_color_app"
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
     tools:context=".activity.RegisterActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="32dp"
@@ -25,16 +21,6 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
-=======
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/register_textview_registroUsuario"
-        android:textColor="#090808"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,7 +29,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-<<<<<<< HEAD
         android:layout_marginTop="64dp"
         android:layout_marginEnd="24dp"
         android:autofillHints=""
@@ -53,21 +38,11 @@
         android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/color_hint_app"
-=======
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:ems="10"
-        android:hint="@string/register_hint_nome"
-        android:autofillHints=""
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-<<<<<<< HEAD
         android:id="@+id/register_edittext_senha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -87,13 +62,10 @@
         app:layout_constraintTop_toBottomOf="@+id/register_edittext_email" />
 
     <EditText
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         android:id="@+id/register_edittext_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-<<<<<<< HEAD
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:autofillHints=""
@@ -107,59 +79,23 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_edittext_fone" />
-=======
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:ems="10"
-        android:hint="@string/register_hint_email"
-        android:autofillHints=""
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_edittext_name" />
-
-    <EditText
-        android:id="@+id/register_edittext_senha"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:ems="10"
-        android:hint="@string/register_hint_senha"
-        android:autofillHints=""
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_edittext_email" />
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 
     <EditText
         android:id="@+id/register_edittext_confirmarsenha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-<<<<<<< HEAD
         android:layout_marginTop="24dp"
-=======
-        android:layout_marginTop="32dp"
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         android:layout_marginEnd="24dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/register_hint_senhaConfirm"
         android:inputType="textPassword"
         android:minHeight="48dp"
-<<<<<<< HEAD
         android:textColor="@color/white"
         android:textColorHint="@color/color_hint_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-=======
-        app:layout_constraintEnd_toEndOf="parent"
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_edittext_senha"
         tools:ignore="TextContrastCheck" />
@@ -172,7 +108,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
-<<<<<<< HEAD
         android:backgroundTint="@color/theme_color"
         android:text="@string/register_button_registrar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -215,11 +150,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_edittext_lastname" />
-=======
-        android:text="@string/register_button_registrar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_edittext_confirmarsenha" />
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 </androidx.constraintlayout.widget.ConstraintLayout>

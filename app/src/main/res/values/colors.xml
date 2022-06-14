@@ -8,9 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="theme_color">#1326D6</color>
-<<<<<<< HEAD
     <color name="background_color_app">#16003B</color>
     <color name="color_hint_app">#79FFFFFF</color>
-=======
->>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 </resources>
