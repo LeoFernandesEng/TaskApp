@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gestão App</string>
+    <string name="reporte_me">Gestão APP</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Ainda não é usuário? Clique aqui para Registrar</string>
+    <string name="register_textview_registroUsuario">Registro de novo usuário</string>
+    <string name="register_hint_nome">Nome</string>
+    <string name="register_hint_email">Email</string>
+    <string name="register_hint_senha">Senha</string>
+    <string name="register_hint_senhaConfirm">Confirma a senha</string>
+    <string name="register_button_registrar">Registrar</string>
+    <string name="titulo_cadastro_transacao">Transaçao</string>
+</resources>
