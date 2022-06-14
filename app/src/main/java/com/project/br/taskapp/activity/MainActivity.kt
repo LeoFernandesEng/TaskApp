@@ -1,5 +1,6 @@
 package com.project.br.taskapp.activity
 
+<<<<<<< HEAD
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -29,10 +30,18 @@ class MainActivity : AppCompatActivity(), TransactionItemListener {
 
     private val handler = Handler(Looper.getMainLooper())
 
+=======
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.project.br.taskapp.R
+
+class MainActivity : AppCompatActivity() {
+>>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+<<<<<<< HEAD
         userId = intent.getIntExtra("userId", -1)
 
         listTransaction = findViewById(R.id.main_recycleview_transactions)
@@ -110,4 +119,8 @@ class MainActivity : AppCompatActivity(), TransactionItemListener {
             dialog.show()
     }
 
+=======
+
+    }
+>>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 }

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/background_color_app"
     tools:context=".activity.MainActivity">
 
@@ -38,5 +39,17 @@
         app:layout_constraintVertical_bias="0.976"
         app:srcCompat="@android:drawable/ic_input_add"
         tools:ignore="ImageContrastCheck" />
+=======
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 
 </androidx.constraintlayout.widget.ConstraintLayout>

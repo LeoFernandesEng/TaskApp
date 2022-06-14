@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/background_color_app"
+=======
+>>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
     tools:context=".activity.SplashActivity">
 
     <ImageView
@@ -19,7 +22,11 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:srcCompat="@drawable/icon_app" />
+=======
+        app:srcCompat="@drawable/icon_task" />
+>>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
 
     <TextView
         android:id="@+id/textView"
@@ -28,7 +35,10 @@
         android:layout_marginTop="32dp"
         android:layout_marginBottom="16dp"
         android:text="@string/reporte_me"
+<<<<<<< HEAD
         android:textColor="@color/white"
+=======
+>>>>>>> 2284fe6c0cbb41a679d6fe9b4c82e02da5e02e4e
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
